@@ -1,0 +1,167 @@
+@media (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+
+    .phones{
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+
+    .main__img1{
+        max-width: 400px;
+    }
+    .main__img2{
+        max-width: 350px;
+    }
+
+    .main__img3{
+        max-width: 200px;
+    }
+
+    .main__desc1, .main__desc2, .main__text{
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+
+    .nav__ul{
+        gap: 40px;
+    }
+
+    .nav__link, .footer__link{
+        font-size: 17px;
+    }
+
+    .header__title{
+        font-size: 70px;
+    }
+    .header__link{
+        font-size: 15px;
+    }
+
+    .main__img1{
+        max-width: 300px;
+    }
+    .main__img2{
+        max-width: 250px;
+    }
+
+    .main__img3{
+        max-width: 130px;
+    }
+
+    .main__desc1 .main__desc2{
+        font-size: 15px;
+    }
+
+    .main__text{
+        font-size: 12px;
+    }
+
+    .main__content1, .main__content2, .main__content3{
+        gap: 13px;
+    }
+
+    .footer__pay *{
+        width: 50px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .nav__img{
+        object-fit: contain;
+    }
+
+    .nav__content{
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .nav__ul{
+        gap: 15px;
+        /* order: 1; */
+        margin-bottom: 5px;
+    }
+
+    .header__title{
+        font-size: 50px;
+    }
+    .header__link{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .main__img1{
+        max-width: 200px;
+    }
+    .main__img2{
+        max-width: 220px;
+    }
+
+    .main__img3{
+        max-width: 100px;
+    }
+
+    .main__desc1, .main__desc2{
+        font-size: 13px;
+    }
+
+    .main__text{
+        font-size: 10px;
+    }
+
+    .main__content1, .main__content2, .main__content3{
+        gap: 10px;
+    }
+
+    .phones__card{
+        padding: 10px 37px;
+    }
+
+    .footer__pay, .footer__menu{
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .nav__ul{
+        order: 1;
+        gap: 40px;
+    }
+
+    .footer__menu{
+        order: -1;
+    }
+
+    .footer__pay{
+        gap: 20px;
+    }
+
+    .footer__content{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footer{
+        padding: 30px 0;
+    }
+
+}
